@@ -1,0 +1,17 @@
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\obj\Debug\Eye.Console.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Console.exe.config
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Console.exe
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Console.pdb
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\obj\Debug\Eye.Console.exe
+c:\users\user\documents\visual studio 2017\Projects\Eye\Eye.Console\obj\Debug\Eye.Console.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Gsi.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Gsi.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\combat.log
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.CombatLog.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.CombatLog.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.Shared.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Console\bin\Debug\Eye.pdb

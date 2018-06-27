@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\bin\Release\Eye.Gsi.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\bin\Release\Eye.Shared.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\bin\Release\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\bin\Release\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Release\Eye.Gsi.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Release\Eye.Gsi.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Release\Eye.Gsi.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Release\Eye.Gsi.dll

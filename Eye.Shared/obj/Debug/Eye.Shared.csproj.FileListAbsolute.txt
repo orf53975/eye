@@ -1,0 +1,6 @@
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\bin\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\bin\Debug\Eye.Shared.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\obj\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\obj\Debug\Eye.Shared.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Shared\obj\Debug\Eye.Shared.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Shared\obj\Debug\Eye.Shared.csprojAssemblyReference.cache

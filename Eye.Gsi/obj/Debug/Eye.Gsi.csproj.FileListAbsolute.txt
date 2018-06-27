@@ -1,0 +1,11 @@
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\Debug\Eye.Gsi.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\Debug\Eye.Gsi.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\obj\Debug\Eye.Gsi.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\obj\Debug\Eye.Gsi.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\Debug\Eye.Shared.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Debug\Eye.Gsi.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Debug\Eye.Gsi.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.Gsi\obj\Debug\Eye.Gsi.csproj.CopyComplete

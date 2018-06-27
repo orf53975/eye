@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<title>Eye Player</title>
+	<link type="text/css" href="bountygold.css" rel="stylesheet" media="screen">
+	<link type="text/css" href="main.css" rel="stylesheet" media="screen">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="countdown.js"></script>
+</head>
+<body>
+<div class="heroes-panel">
+	<div class="team1">
+		<div id="hero0" class="hero hero0">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero1" class="hero hero1">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero2" class="hero hero2">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero3" class="hero hero3">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero4" class="hero hero4">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	<div class="titles">
+		<div class="data-title"></div>
+		<div class="text-title"></div>
+	</div>
+
+	<div class="team2">
+		<div id="hero5" class="hero hero0">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero6" class="hero hero1">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero7" class="hero hero2">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero8" class="hero hero3">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+		<div id="hero9" class="hero hero4">
+			<div class="modifiers"></div>
+			<div class="runes"></div>
+			<div class="hero-data-rectangle">
+				<div class="data">
+					<!--<span class="icon"></span>-->
+					<div class="value"></div>
+				</div>
+				<div class="text">
+					<div class="value"></div>
+				</div>
+				<div class="smoke">
+					<div class="smoke-timer"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bountygold">
+	<div class="bountygold__title">bounty gold</div>
+
+	<div class="bountygold__score">
+		<div class="bountygold__team">
+			<div class="bountygold__radiant">
+				Radiant
+			</div>
+			<!--<img src="" alt="Logo" class="bountygold__logo">-->
+			<div class="bountygold__points"></div>
+		</div>
+		<div class="bountygold__team">
+			<div class="bountygold__dire">
+				Dire
+			</div>
+			<!--<img src="" alt="Logo" class="bountygold__logo">-->
+			<div class="bountygold__points"></div>
+		</div>
+
+		<div class="bountygold__round"></div>
+	</div>
+
+	<div class="bountygold__content">
+		<div class="bountygold__subtitle">bounty pickups</div>
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+            
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+          
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+              
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+
+			<div class="bountygold__period disable">
+				0
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+              
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                  
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+    
+			<div class="bountygold__period disable">
+				5
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+              
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                  
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+    
+			<div class="bountygold__period disable">
+				10
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                  
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+                
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                    
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+      
+			<div class="bountygold__period disable">
+				15
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                    
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+                  
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                      
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+        
+			<div class="bountygold__period disable">
+				20
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                      
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+                    
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                        
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+          
+			<div class="bountygold__period disable">
+				25
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+
+		<div class="bountygold__wrap">
+			<div class="bountygold__flex">
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                        
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+                      
+				<div class="bountygold__amount">
+					<img src="img/bounty.png" alt="Bounty" class="bountygold__bounty bountygold__bounty--hide">
+                          
+					<div class="bountygold__runes"></div>
+					<div class="bountygold__multiply"></div>
+				</div>
+			</div>
+            
+			<div class="bountygold__period disable">
+				30+
+				<div class="bountygold__line"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="inventory inventory4">
+    <div id="slot0" class="item item0"></div>
+    <div id="slot1" class="item item1"></div>
+    <div id="slot2" class="item item2"></div>
+    <div id="slot3" class="item item3"></div>
+    <div id="slot4" class="item item4"></div>
+    <div id="slot5" class="item item5"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

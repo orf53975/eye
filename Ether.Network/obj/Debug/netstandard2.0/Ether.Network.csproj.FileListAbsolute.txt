@@ -1,0 +1,11 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\bin\Debug\netstandard2.0\Ether.Network.deps.json
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\bin\Debug\netstandard2.0\Ether.Network.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\bin\Debug\netstandard2.0\Ether.Network.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\bin\Debug\netstandard2.0\Ether.Network.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.AssemblyInfo.cs
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Ether.Network\obj\Debug\netstandard2.0\Ether.Network.csprojAssemblyReference.cache

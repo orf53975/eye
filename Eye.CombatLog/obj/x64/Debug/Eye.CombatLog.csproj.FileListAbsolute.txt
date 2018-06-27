@@ -1,0 +1,11 @@
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\Eye.CombatLog.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\Eye.CombatLog.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\nunit.framework.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\Sprache.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\Eye.Shared.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\nunit.framework.xml
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\bin\x64\Debug\Sprache.xml
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\obj\x64\Debug\Eye.CombatLog.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\obj\x64\Debug\Eye.CombatLog.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.CombatLog\obj\x64\Debug\Eye.CombatLog.pdb

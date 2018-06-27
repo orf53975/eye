@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Eye.Parser.exe.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Eye.Parser.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Ether.Network.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Eye.CombatLog.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Eye.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Eye.Gsi.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Eye.Shared.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Ether.Network.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Ether.Network.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\bin\Release\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\obj\Release\Eye.Parser.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\obj\Release\Eye.Parser.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\obj\Release\Eye.Parser.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.ParserNew\obj\Release\Eye.Parser.exe

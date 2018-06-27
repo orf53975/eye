@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\bin\Release\Eye.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\bin\Release\Eye.CombatLog.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\bin\Release\Eye.Gsi.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\bin\Release\Eye.Shared.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\bin\Release\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\bin\Release\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\obj\Release\Eye.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\obj\Release\Eye.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\obj\Release\Eye.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye\obj\Release\Eye.dll

@@ -1,0 +1,359 @@
+﻿* {
+	-webkit-backface-visibility: hidden;
+
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+@font-face {
+	font-family: 'Hypatia Sans Pro';
+	src: url('Hypatia/Hypatia-Sans-Pro.ttf');
+}
+
+body {
+	width: 1920px;
+	height: 1080px;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased !important;
+
+	/*background-image: url("20180613201546_1.jpg");
+	background-repeat: no-repeat;*/
+}
+
+.inventory {
+	width: 200px;
+	height: 105px;
+	/*border: red 1px solid;*/
+}
+
+.inventory4 {
+	position: absolute;
+	left: 1105px;
+	top: 935px;
+}
+
+.inventory5 {
+	position: absolute;
+	left: 1120px;
+	top: 935px;
+}
+
+.inventory6 {
+	position: absolute;
+	left: 1150px;
+	top: 935px;
+}
+
+.inventoryMorphling {
+	position: absolute;
+	left: 1136px;
+	top: 935px;
+}
+
+
+.item {
+	position: inherit;
+
+	width: 60px;
+	height: 45px;
+
+	background: rgba(0, 0, 0, 0.01);
+
+	/*border: red 1px solid;*/
+}
+
+.item0 {
+	left: 5.3px;
+	top: 5.6px;
+}
+
+.item1 {
+	left: 69.8px;
+	top: 5.6px;
+}
+
+.item2 {
+	left: 134.6px;
+	top: 5.6px;
+}
+
+.item3 {
+	left: 5.3px;
+	top: 53.6px;
+}
+
+.item4 {
+	left: 69.8px;
+	top: 53.6px;
+}
+
+.item5 {
+	left: 134.6px;
+	top: 53.6px;
+}
+
+.aegis-timer {
+	-webkit-backface-visibility: hidden;
+		
+	position: inherit;
+	font-family: 'Hypatia Sans Pro';
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 1);
+	color: #FAFAFA;
+	bottom: -5px;
+	right: 0;
+}
+
+.bkb-seconds {
+	-webkit-backface-visibility: hidden;
+		
+	position: inherit;
+	font-family: 'Hypatia Sans Pro';
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 1);
+	color: #FAFAFA;
+	bottom: -5px;
+	right: 0;
+}
+
+.heroes-panel {
+	/*border: red 1px solid;*/
+
+	position: absolute;
+
+	left: 543px;
+	top: 55px;
+
+	width: 830px;
+	height: 400px;
+}
+
+.team1 { position: inherit; }
+
+.team2 {
+	position: inherit;
+
+	left: 518px;
+}
+
+.hero {
+	position: inherit;
+
+	/*border: red 0.1px solid;*/
+
+	width: 60px;
+	height: 67px;
+}
+
+.hero0 { left: 0; }
+
+.hero1 { left: 63px; }
+
+.hero2 { left: 126px; }
+
+.hero3 { left: 188.5px; }
+
+.hero4 { left: 251.5px; }
+
+.hero-data-rectangle {
+	display: none;
+
+	position: inherit;
+	width: 60px;
+	height: 67px;
+	background-image: url("icons/hero-data-rectangle.png");
+}
+
+.smoke {
+	display: none;
+
+	position: inherit;
+
+	bottom: 2px;
+	left: 2px;
+
+	width: 23px;
+	height: 23px;
+	background-image: url("icons/smoke.png");
+}
+
+.smoke-timer {
+	position: inherit;
+	font-family: 'Hypatia Sans Pro';
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 1);
+	color: #FAFAFA;
+	bottom: -2px;
+	left: 32px;
+}
+
+.modifiers { padding-top: 3px; }
+
+.modifiers .modifier:first-child { margin-right: 0; }
+
+.modifier {
+	float: right;
+	margin-right: 3px;
+}
+
+.aegis {
+	display: inline-block;
+
+	width: 18px;
+	height: 18px;
+	background-image: url("icons/aegis.png");
+}
+
+.rapier {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url("icons/rapier.png");
+}
+
+.gem {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url("icons/gem.png");
+}
+
+.runes {
+	position: inherit;
+	top: 20px;
+	width: 62px;
+	/*height: 30px;*/
+	text-align: center;
+}
+
+.runes:first-child { margin-right: 2px; }
+
+.rune {
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 2px;
+}
+
+.doubledamage {
+	width: 17px;
+	height: 28px;
+	background-image: url("icons/runes/doubledamage.png");
+}
+
+.haste {
+	width: 19px;
+	height: 30px;
+	background-image: url("icons/runes/haste.png");
+}
+
+.invis {
+	width: 20px;
+	height: 27px;
+	background-image: url("icons/runes/invis.png");
+}
+
+.regen {
+	width: 30px;
+	height: 29px;
+	background-image: url("icons/runes/regen.png");
+}
+
+.arcane {
+	width: 18px;
+	height: 30px;
+	background-image: url("icons/runes/arcane.png");
+}
+
+.data {
+	position: inherit;
+	width: 60px;
+	top: 23px;
+
+	align-content: center;
+}
+
+.data .icon {
+	display: block;
+	float: left;
+	transform: translateY(50%);
+}
+
+.data .gold {
+	width: 16px;
+	height: 10px;
+	background-image: url("icons/gold-small.png");
+}
+
+.data .value {
+	font-family: 'Hypatia Sans Pro';
+	font-size: 16px;
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 1);
+	font-weight: normal;
+	color: gold;
+	width: auto;
+}
+
+.text {
+	position: inherit;
+	width: 60px;
+	top: 40px;
+}
+
+.text .value {
+	font-family: 'Hypatia Sans Pro';
+	font-size: 22px;
+	font-weight: bolder;
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 1);
+	color: gold;
+
+	width: 100%;
+	text-align: center;
+}
+
+.titles {
+	position: inherit;
+
+	width: 206px;
+	height: 70px;
+	left: 313px;
+}
+
+.data-title {
+	display: none;
+	position: inherit;
+
+	/*padding-top: 24px;*/
+	top: 28px;
+
+	font-family: 'Hypatia Sans Pro';
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 1px 3px 0 rgba(0, 0, 0, 1);
+	color: #FAFAFA;
+	text-align: center;
+	width: 100%;
+}
+
+.text-title {
+	display: none;
+	position: inherit;
+
+	bottom: 2px;
+
+	font-family: 'Hypatia Sans Pro';
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 1px 3px 0 rgba(0, 0, 0, 1);
+	color: #FAFAFA;
+	text-align: center;
+	width: 100%
+}

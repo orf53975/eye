@@ -1,0 +1,9 @@
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\x64\Debug\Eye.Gsi.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\x64\Debug\Eye.Gsi.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\x64\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\x64\Debug\Eye.Shared.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\obj\x64\Debug\Eye.Gsi.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\obj\x64\Debug\Eye.Gsi.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Gsi\obj\x64\Debug\Eye.Gsi.pdb

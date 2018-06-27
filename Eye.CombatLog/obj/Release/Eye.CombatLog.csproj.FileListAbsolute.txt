@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\bin\Release\Eye.CombatLog.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\bin\Release\Eye.Shared.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\bin\Release\nunit.framework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\bin\Release\Sprache.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\bin\Release\nunit.framework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\bin\Release\Sprache.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\obj\Release\Eye.CombatLog.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\obj\Release\Eye.CombatLog.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\obj\Release\Eye.CombatLog.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\Eye\Eye.CombatLog\obj\Release\Eye.CombatLog.dll

@@ -1,0 +1,4 @@
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\bin\x64\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\bin\x64\Debug\Eye.Shared.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\obj\x64\Debug\Eye.Shared.dll
+C:\Users\User\documents\visual studio 2017\Projects\Eye\Eye.Shared\obj\x64\Debug\Eye.Shared.pdb

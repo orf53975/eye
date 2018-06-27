@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{277B9381-E3DC-429B-A40E-DF931BA36F34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Eye.Controller</RootNamespace>
+    <AssemblyName>Controller</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fleck, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fleck.1.0.3\lib\net45\Fleck.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modules\AegisTimerModule\Commands\AegisOwnerSelected.cs" />
+    <Compile Include="Modules\AegisTimerModule\Commands\AegisOwnerUnselected.cs" />
+    <Compile Include="Modules\AegisTimerModule\Commands\AegisTaken.cs" />
+    <Compile Include="Modules\AegisTimerModule\Events\AegisOwnerSelectedEvent.cs" />
+    <Compile Include="Modules\AegisTimerModule\Events\AegisOwnerSlotChangedEvent.cs" />
+    <Compile Include="Modules\AegisTimerModule\Events\AegisOwnerUnselectedEvent.cs" />
+    <Compile Include="Modules\AegisTimerModule\Events\AegisTakenEvent.cs" />
+    <Compile Include="Modules\AegisTimerModule\AegisTimer.cs" />
+    <Compile Include="CombatLogJsonParser.cs" />
+    <Compile Include="CombatLogListener.cs" />
+    <Compile Include="EyeController.cs" />
+    <Compile Include="MainController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainController.Designer.cs">
+      <DependentUpon>MainController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BkbSecondsModule\BkbSeconds.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Commands\BkbOwnerSelected.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Commands\BkbOwnerUnselected.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Commands\BkbUsed.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Events\BkbOwnerSelectedEvent.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Events\BkbOwnerSlotChangedEvent.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Events\BkbOwnerUnselectedEvent.cs" />
+    <Compile Include="Modules\BkbSecondsModule\Events\BkbUsedEvent.cs" />
+    <Compile Include="Modules\BountyRuneGoldModule\Commands\BountyGoldClose.cs" />
+    <Compile Include="Modules\BountyRuneGoldModule\Commands\BountyGoldOpen.cs" />
+    <Compile Include="Modules\BountyRuneGoldModule\BountyRuneGold.cs" />
+    <Compile Include="Modules\BountyRuneGoldModule\Events\BountyRunePickedupEvent.cs" />
+    <Compile Include="Modules\BountyRuneGoldModule\Events\GameStartedEvent.cs" />
+    <Compile Include="Modules\DataShowerModule\Commands\DataHide.cs" />
+    <Compile Include="Modules\DataShowerModule\Commands\DataShow.cs" />
+    <Compile Include="Modules\DataShowerModule\DataShower.cs" />
+    <Compile Include="Modules\DataShowerModule\DataUtils.cs" />
+    <Compile Include="Modules\DataShowerModule\Data\HeroDamage.cs" />
+    <Compile Include="Modules\DataShowerModule\Data\StacksAndSupportGold.cs" />
+    <Compile Include="Modules\DataShowerModule\Data\WardsPlaced.cs" />
+    <Compile Include="Modules\DataShowerModule\Events\HeroDamageReceiver.cs" />
+    <Compile Include="Modules\DataShowerModule\Events\KillsGoldEvent.cs" />
+    <Compile Include="Modules\DataShowerModule\Events\NetworthPercentCalculator.cs" />
+    <Compile Include="Modules\DataShowerModule\Data\NetworthPercentAndKillsGold.cs" />
+    <Compile Include="Modules\DataShowerModule\Events\StacksCountReceiver.cs" />
+    <Compile Include="Modules\DataShowerModule\Events\SupportGoldReceiver.cs" />
+    <Compile Include="Modules\DataShowerModule\Events\WardsPlacedReceiver.cs" />
+    <Compile Include="Modules\DataShowerModule\IData.cs" />
+    <Compile Include="Modules\IControllerModule.cs" />
+    <Compile Include="Modules\ImportantItemsModule\Commands\ImportantItemRemoved.cs" />
+    <Compile Include="Modules\ImportantItemsModule\Commands\ImportantItemAdded.cs" />
+    <Compile Include="Modules\ImportantItemsModule\Events\ImportantItemRemovedEvent.cs" />
+    <Compile Include="Modules\ImportantItemsModule\Events\ImportantItemAddedEvent.cs" />
+    <Compile Include="Modules\ImportantItemsModule\ImportantItems.cs" />
+    <Compile Include="Modules\PauseModule\Commands\PauseStateChanged.cs" />
+    <Compile Include="Modules\PauseModule\Events\PauseStateChangedEvent.cs" />
+    <Compile Include="Modules\PauseModule\Pause.cs" />
+    <Compile Include="Modules\RunesModule\Commands\RuneModifierAdded.cs" />
+    <Compile Include="Modules\RunesModule\Commands\RuneModifierRemoved.cs" />
+    <Compile Include="Modules\RunesModule\Events\RuneModifierAddedEvent.cs" />
+    <Compile Include="Modules\RunesModule\Events\RuneModifierRemovedEvent.cs" />
+    <Compile Include="Modules\RunesModule\Rune.cs" />
+    <Compile Include="Modules\SmokeModule\Commands\SmokeModifierAdded.cs" />
+    <Compile Include="Modules\SmokeModule\Commands\SmokeModifierRemoved.cs" />
+    <Compile Include="Modules\SmokeModule\Events\SmokeModifierAddedEvent.cs" />
+    <Compile Include="Modules\SmokeModule\Events\SmokeModifierRemovedEvent.cs" />
+    <Compile Include="Modules\SmokeModule\Smoke.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainController.resx">
+      <DependentUpon>MainController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Player\Hypatia\Hypatia-Sans-Pro-Black_23429.ttf" />
+    <None Include="Player\Hypatia\Hypatia-Sans-Pro-Bold_23430.ttf" />
+    <None Include="Player\Hypatia\Hypatia-Sans-Pro-ExtraLight_23431.ttf" />
+    <None Include="Player\Hypatia\Hypatia-Sans-Pro-Light_23432.ttf" />
+    <None Include="Player\Hypatia\Hypatia-Sans-Pro-Semibold_23433.ttf" />
+    <None Include="Player\Hypatia\Hypatia-Sans-Pro_23434.ttf" />
+    <Content Include="Player\main.js" />
+    <None Include="Properties\DataSources\AegisTimer.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ether.Network\Ether.Network.csproj">
+      <Project>{e7fee525-0f93-4fe8-9330-68cdd2e6c2a5}</Project>
+      <Name>Ether.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eye.CombatLog\Eye.CombatLog.csproj">
+      <Project>{DCBBDF9C-9C93-4C64-80E6-2452C8CF8831}</Project>
+      <Name>Eye.CombatLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eye.Gsi\Eye.Gsi.csproj">
+      <Project>{EE45DA1A-614E-48DB-9740-944EDC4880AC}</Project>
+      <Name>Eye.Gsi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eye.Shared\Eye.Shared.csproj">
+      <Project>{7836FACC-810D-4B11-94A5-1D31F9C5F32E}</Project>
+      <Name>Eye.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eye\Eye.csproj">
+      <Project>{84956379-D2D6-43A1-8EF7-40093EBB4898}</Project>
+      <Name>Eye</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Player\20180612205930_1.png" />
+    <Content Include="Player\20180613201546_1.jpg" />
+    <Content Include="Player\bountygold.css" />
+    <Content Include="Player\countdown.js" />
+    <Content Include="Player\icons\aegis.png" />
+    <Content Include="Player\icons\gem.png" />
+    <Content Include="Player\icons\gold-small.png" />
+    <Content Include="Player\icons\hero-data-rectangle.png" />
+    <Content Include="Player\icons\rapier.png" />
+    <Content Include="Player\icons\runes\arcane.png" />
+    <Content Include="Player\icons\runes\doubledamage.png" />
+    <Content Include="Player\icons\runes\haste.png" />
+    <Content Include="Player\icons\runes\invis.png" />
+    <Content Include="Player\icons\runes\regen.png" />
+    <Content Include="Player\icons\smoke.png" />
+    <Content Include="Player\img\bounty-rune.png" />
+    <Content Include="Player\img\bounty.png" />
+    <Content Include="Player\img\team1.png" />
+    <Content Include="Player\img\team2.png" />
+    <Content Include="Player\main.css" />
+    <Content Include="Player\player.html" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
